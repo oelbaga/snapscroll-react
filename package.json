@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "gsap": "^3.11.0",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.54.5"
   },
   "devDependencies": {
     "eslint": "8.22.0",
