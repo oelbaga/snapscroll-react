@@ -18,20 +18,20 @@ export default function Mysection({
     gsap.fromTo(
       headlineRef.current,
       {
-        opacity: 0,
+        autoAlpha: 0,
         y: -20,
       },
       {
         y: 0,
-        opacity: 1,
+        autoAlpha: 1,
         duration: 1,
         ease: "power3.out",
         scrollTrigger: {
           scroller: ".container",
           trigger: headlineRef.current,
-          start: "top 80%",
+          start: "top 60%",
           end: "bottom 0%",
-          toggleActions: "play none none reverse",
+          toggleActions: "play none restart reverse",
         },
       }
     );
